@@ -18,7 +18,7 @@ N_VERIFY = 5
 
 
 def main():
-    # argumen untuk video
+    # argumen untuk image
     ap = argparse.ArgumentParser()
     ap.add_argument("-v", "--video", help="Path to video file")
     ap.add_argument("-i", "--image", help="Path to the image")
